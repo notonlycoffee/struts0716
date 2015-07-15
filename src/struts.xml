@@ -6,7 +6,6 @@
 
 <struts>
 
-
         <constant name="struts.action.extension" value="action,do,abc,"></constant>
         <constant name="struts.enable.DynamicMethodInvocation" value="true" />
 
@@ -20,7 +19,7 @@
                 <!--<action name="hello_*" class="cn.itcast.web.action.HelloAction" method="{1}">-->
                         <!--<result name="success">/index.jsp</result>-->
                 <!--</action>-->
-                
+
                 <action name="hello" class="cn.itcast.web.action.HelloAction"></action>
 
                 <action name="hello2" class="cn.itcast.web.action.HelloAction2">
@@ -61,6 +60,6 @@
                         <result name="success">/index.jsp</result>
                         <result name="input">/input.jsp</result>
                 </action>
-
         </package>
+
 </struts>
