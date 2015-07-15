@@ -1,0 +1,115 @@
+day29
+1. 自定义框架01
+2.自定义框架完整实现
+3. struts hello案例
+4. struts开发步骤
+5.struts步骤详解
+6. struts配置
+
+day30
+1. struts常量设置
+2. 全局视图、默认action、各项目默认值
+3. struts核心业务-数据处理
+4.struts中类型转换
+5.文件上传
+6.文件下载
+
+
+day31
+1. 拦截器简介
+2.拦截器案例
+3. struts中国际化
+4.ognl表达式语言
+5.ognl表达式语言
+
+day32
+1. 数据效验
+2.数据效验错误提示
+3.案例分析
+4. 案例
+5.主外键关联
+
+day33
+1. hibernate入门
+2.hibernate api 使用
+3. crud案例
+4.hibernate主配置文件
+5.配置详解
+
+day34
+1. set集合映射
+2.一对多与多对一
+3. 一对多关系维护
+4. 多对多关系
+5. 多对多关联
+6. 级联操作
+7.lazy用法
+
+day35
+1. hibernate对象的状态与session缓存
+2. session缓存与list、iterator区别
+3.一对一映射
+4. 继承映射
+
+day36
+没有视频
+
+day37
+1. sprinng入门
+2.IOC容器创建对象
+3.IOC注入属性值
+4.属性注入值
+5.注解使用
+6.spring与struts整合
+
+day38
+1. 静态代理与动态代理
+2. cglib子类代理
+3. 注解方式aop开发
+4.配置方式aop实现
+5. 切入点表达式
+6.spring jdbc操作
+
+day39
+1. 声明式事务管理，xml
+2. 注解方式进行声明式事务管理
+3.事务属性
+4.Spring与hibernate初步整合
+5.Spring对SessionFactory管理的几种方式
+6.Spring对SessionFactory的管理
+7.ssh整合
+
+day40
+框架基类
+框架整合-hibernate&spring事务管理配置
+POI样式背景
+POI合并单元格&居中
+项目介绍&POI基础Hello World
+框架整合-struts2+spring配置
+
+day41
+1-用户管理
+2-用户管理添加
+3-Video_2014-09-13_114827
+4-用户管理样式套用
+
+day42
+01_JS的简介
+02_JS中函数的三种定义方式
+03_window对象的属性
+04_window对象的方法
+05_window对象的事件
+06_随机整数和数组
+07_定位表单与提交
+08_DOM简述
+09_Node接口api测试
+10_Node接口api测试
+11_综合例子
+
+day43
+
+
+
+
+
+

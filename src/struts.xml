@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!DOCTYPE struts PUBLIC
+        "-//Apache Software Foundation//DTD Struts Configuration 2.3//EN"
+        "http://struts.apache.org/dtds/struts-2.3.dtd">
+
+<struts>
+
+
+        <constant name="struts.action.extension" value="action,do,abc,"></constant>
+        <constant name="struts.enable.DynamicMethodInvocation" value="true" />
+
+        <package name="default" extends="struts-default">
+
+                <global-results>
+                        <result name="success">index.jsp</result>
+                        <result name="input">input.jsp</result>
+                </global-results>
+
+                <!--<action name="hello_*" class="cn.itcast.web.action.HelloAction" method="{1}">-->
+                        <!--<result name="success">/index.jsp</result>-->
+                <!--</action>-->
+                
+                <action name="hello" class="cn.itcast.web.action.HelloAction"></action>
+
+                <action name="hello2" class="cn.itcast.web.action.HelloAction2">
+                        <result name="success">result.jsp</result>
+                </action>
+
+                <action name="hello3" class="cn.itcast.web.action.HelloAction1">
+                        <result name="success">result1.jsp</result>
+                </action>
+
+                <action name="hello4" class="cn.itcast.web.action.HelloAction3" method="data">
+                        <result name="success" type="redirect">result1.jsp</result>
+                </action>
+
+                <action name="data" class="cn.itcast.web.action1.DataAction">
+                        <result name="success">index.jsp</result>
+                </action>
+
+                <action name="data1" class="cn.itcast.web.action1.DataAction1">
+                        <result name="success">index.jsp</result>
+                </action>
+
+                <action name="address" class="cn.itcast.web.action1.AddressAction">
+                        <result name="success">index.jsp</result>
+                </action>
+
+                <action name="myupload" class="cn.itcast.web.fileupload.UploadAction">
+
+                        <interceptor-ref name="defaultStack">
+                                <!-- 配置允许上传的文件类型，多个用","分隔 -->
+                                <param name="fileUpload.allowedTypes">
+                                        text/plain
+                                </param>
+                                <!-- 配置允许上传的文件大小，单位字节,本例为：1MB -->
+                                <param name="fileUpload.maximumSize">1048576</param>
+                        </interceptor-ref>
+
+                        <result name="success">/index.jsp</result>
+                        <result name="input">/input.jsp</result>
+                </action>
+
+        </package>
+</struts>
